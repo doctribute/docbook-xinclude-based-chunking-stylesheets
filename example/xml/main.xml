@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<book xmlns="http://docbook.org/ns/docbook" xmlns:xi="http://www.w3.org/2001/XInclude"
+   xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0">
+   <?dbhtml xinclude-based-chunking?>
+   <xi:include href="info.xml">
+      <?dbhtml do-not-chunk-this-xinclude?>
+   </xi:include>
+   <chapter xml:id="natural-content-splitting">
+      <title>Natural content splitting</title>
+      <para>content</para>
+   </chapter>
+   <chapter xml:id="current-chunking-methods">
+      <title>Current chunking methods</title>
+      <para>content</para>
+   </chapter>
+   <chapter xml:id="xinclude-based-chunking">
+      <title>XInclude based chunking</title>
+      <xi:include href="rules.xml"/>
+   </chapter>
+</book>
