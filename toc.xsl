@@ -2,7 +2,8 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 
    <xsl:param name="generate.toc" xml:space="preserve">
-      book nop
+      article toc
+      book toc
       chapter toc
       section toc
    </xsl:param>
